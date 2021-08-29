@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mark1 envanter Giriş Sayfası</title>
+</head>
+<body>
+<h1>Mark 1 kullanıcılara ait giriş modülü</h1>
+<p>bu sayfadan eczane envanter taleb girişleriniz için login olabilirsiniz.</p>
+
+
+<hr>
+
+<h1>Çanakkale</h1>
+<h2>Çanakkale</h2>
+<h3>Çanakkale</h3>
+<h4>Bayramiç</h4>
+<h5>tokat</h5>
+<h6>kınık</h6>
+
+
+<br>
+
+<a href="https://tr.linkedin.com/jobs/view/full-stack-engineer-at-mark1-yaz%C4%B1l%C4%B1m-arge-ve-teknoloji-geli%C5%9Ftirme-2685225211?refId=i3ITJijEZkhV0vYA%2FhjBVw%3D%3D&trackingId=jfmq5ymTrLcp9v9OPqsNiw%3D%3D">buraya tıkla</a>
+
+<br>
+
+<br>
+
+<button>BUTTON</button>
+
+<br>
+
+<ul>
+  <li>eczane</li>
+  <li>ilaç</li>
+  <li>sargıbandı</li>
+</ul>
+
+</body>
+</html>
