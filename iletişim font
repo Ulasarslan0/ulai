@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="eklentiler\css/bootstrap.min.css">
+  <title>İletişim Formu</title>
+</head>
+ <body>
+
+
+  <div class="container">
+
+    <br>
+    <h3> İletişim Formu</h3>
+    <div class="col-md-6 bg-info form-group">
+      <form action="" method="POST">
+        <div class="row">
+          <div class="col-md-6">
+            <label>İsim</label>
+            <input class="form-control" type="text" maxlength="25" name="isim" required="">
+          </div>
+          <div class="col-md-6">
+           <label>Soyisim</label>
+           <input class="form-control" type="text" name="soyad" required="">
+         </div>
+       </div>
+       <label>E-Mail</label>
+       <input class="form-control" type="email" name="email" required="">
+       <label>Telefon</label>
+       <input class="form-control" type="number" name="tel" required="">
+       <label>Doğum Tarihi</label>
+       <input class="form-control" type="date" name="dt" required="">
+       <input class="form-control" type="text" value="Doğum tarihi zorunludur." disabled="" name="email">
+       <label>Hizmetler</label>
+       <select name="hizmetler" class="form-control">
+         <option>web tasarım</option>
+         <option>html kodlama</option>
+         <option>teknik servis</option>
+       </select>
+       <label>Açıklama</label>
+       <textarea class="form-control" name="aciklama" type="text"> </textarea>
+       <br>
+       <button class="btn btn-success" name="gonder" type="submit">Gönder</button>
+       <button class="btn btn-danger" name="temizle" type="button">Temizle</button>
+     </form>
+   </div>
+ </div>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+  </html>
