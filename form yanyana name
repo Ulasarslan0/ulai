@@ -1,0 +1,50 @@
+<!doctype html>
+  <html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="eklentiler/css/bootstrap.min.css">
+    <title>iletişim formu</title>
+    <head>
+    </body>
+
+
+    <div class="container">
+
+      <br>
+      <h2>iletişim formu</h2>
+      <div class="col-md-6 form-group">
+        <form>
+          <div class="row">
+            <div class="col-md-6">
+             <label>isim</label>
+             <input class="form-control" type="text" name="isim">
+
+           </div>
+           <div class="col-md-6">
+             <label>Soyisim</label>
+             <input class="form-control" type="text" name="soyisim">
+
+           </div>
+
+           <div>
+
+
+            <label>E-mail </label>
+            <input class="form-control" type="text" name="email">
+            <label>ürünler</label>
+            <select class="form-control">
+              <option>ilaçlar</option>
+              <option>sargı malzemeleri</option>
+              <option>yetişkin bezleri</option>
+            </select>
+            <label>önemli </label>
+            <textarea class="form-control" type="text"> </textarea>
+            <br>
+            <button class="btn btn-success" type="button">Gönder</button>
+            <button class="btn btn-danger"type="button">Temizle</button>
+          </form>
+        </div>
+      </div>
