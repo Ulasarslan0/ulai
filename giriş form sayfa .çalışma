@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="eklentiler/css/bootstrap.min.css">
+	<title>giriş-Ulaş</title>
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<div class="form-control">
+					   <label>Mail adresi</label>
+				       <input class="form-control" type="text" name="">
+				       <label>Parola</label>
+				       <input class="form-control" type="text" name="">
+                          <br>
+				       <a class="btn btn-primary" href="">Oturum Aç</a>
+				       <input class="btn btn-danger" type="submit" value="Vazgeç" name=""> </input>
+				       <button class="btn btn-success">Hesap Oluştur</button>
+               </div>
+			
+               <div>
+               	   <br>
+               	<button class=" btn btn-success btn-block">Hesap olutştur</button>    	
+               </div>
+
+			</div>
+	   </div>  
+   </div>
+</body>
+</html>
